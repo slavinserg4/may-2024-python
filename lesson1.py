@@ -73,6 +73,35 @@ def function7(list):
     for i in range(length):
         a+=list[i]
     print(a)
+###################################################
+lastList = [22, 3,5,2,8,2,-23, 8,23,5]
+def min_from_list(lastList):
+    return min(lastList)
+def dublicate(lastList):
+    print(set(lastList))
+
+
+
+
+
+while True:
+    print('1) знайти мін число')
+    print('2) видалити усі дублікати')
+    print('3) замінити кожне 4-те значення на "X"')
+    print('4) вивести на екран пустий квадрат з "*" сторона якого вказана як агрумент функції')
+    print('5) вывести табличку множення за допомогою цикла while')
+    print('9) вихід')
+
+    choice = input('Зробіть свій вибір: ')
+    if choice == '1':
+        min(lastList)
+    if choice == '2':
+        dublicate(lastList)
+    if choice == '9':
+        break
+
+
+
 
 
 
